@@ -4,4 +4,4 @@ metadata:
   name: rhsso
 spec:
   targetNamespaces:
-  - rhsso
+    - rhsso
