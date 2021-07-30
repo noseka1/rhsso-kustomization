@@ -5,5 +5,9 @@ Red Hat Single Sign-On production documentation can be found [here](https://acce
 ## Quick Start
 
 ```
-$ oc apply -k rhsso-operator/base
+$ oc apply --kustomize rhsso-operator/base
+```
+
+```
+$ oc apply --kustomize rhsso-instance/base
 ```
